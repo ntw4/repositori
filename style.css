@@ -25,9 +25,9 @@ h1{
     color: darkgreen;
     text-align: left;
 }
-body{
+/* body{
     background-image: url(img/mojet.jfif);
-}
+} */
 ul{
     list-style-type: square;
 }
@@ -63,4 +63,19 @@ ul{
 .span_3{
     color: blue;
     border: 2px solid white;
+    
+}
+#block{
+    display: block;
+    margin-top: 20px;
+    border: 2px solid red;
+    height: 50px;
+    width: 600px;
+    text-align: center;
+}
+.block_text{
+    display: inline;
+    color: green;
+    border: 1px solid blue;
+    margin: 20px;
 }
