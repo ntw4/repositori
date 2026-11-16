@@ -1,0 +1,33 @@
+p {
+    color: blue;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.parag_1{
+    color: red;
+    text-align: left;
+}
+.parag_2{
+    color: blue;
+    text-align: right;
+}
+.parag_3{
+    color: yellow;
+    text-align: center;
+}
+.parag_4{
+    color: chocolate;
+    text-align: justify;
+}
+.parag_5{
+    color: darkgreen;
+    text-align: left;
+}
+body{
+    background-image: url(img/mojet.jfif);
+}
+ul{
+    list-style-type: square;
+}
