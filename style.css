@@ -79,3 +79,48 @@ ul{
     border: 1px solid blue;
     margin: 20px;
 }
+.conteiner{
+    width: 1000px;
+    height: auto;
+    text-align: center;
+}
+.all_quard{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    margin: 10px;
+}
+.quard_1{
+    background-color: yellow;
+}
+.quard_2{
+    background-color: pink;
+}
+.quard_3{
+    background-color: green;
+}
+.cont_pad_color{
+    display: flex;
+    background-color: lightblue;
+    padding: 20px;
+    border: 1px solid black;
+    width: 100%;
+}
+.flex-start{
+    justify-content: flex-start;
+}
+.flex-end{
+    justify-content: flex-end;
+}
+.centre{
+    justify-content: center;
+}
+.space-around{
+    justify-content: space-around;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-evenly{
+    justify-content: space-evenly;
+}
