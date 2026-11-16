@@ -124,12 +124,11 @@ ul{
 .space-evenly{
     justify-content: space-evenly;
 }
-
-
 .cont{
-    width: auto;
+    width: 300px;
     height: auto;
     padding: 15px;
+    border: 1px solid red;
 }
 .blue_quad{
     width: 50px;
@@ -158,12 +157,21 @@ ul{
     display: flex;
     flex-direction: column-reverse;
 }
-.blue_quad_second{
+.blue_quad_double{
     width: 50px;
     height: 100px;
     background-color: blue;
     border: 1px solid black;
     margin: 10px;
+}
+.blue_quad_first{
+    height: 30px;
+}
+.blue_quad_second{
+    height: 100px;
+}
+.blue_quad_three{
+    height: 50px;
 }
 .alight_stretch{
     display: flex;
@@ -171,10 +179,13 @@ ul{
 }
 .alight_flex-start{
     display: flex;
+    align-items: flex-start;
 }
 .alight_flex-end{
     display: flex;
+    align-items: flex-end;
 }
 .alight_center{
     display: flex;
+    align-items: center;
 }
