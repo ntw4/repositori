@@ -38,9 +38,15 @@ ul{
 #child{
     border: 3px dashed purple;
     margin: 50px;
+    background-color: yellow;
 }
 #grandson{
     margin: 30px;
     border: 5px double aquamarine;
-    height: 100px;
+    height: auto;
+    background-color: white;
+}
+.grandson_p{
+    color: black;
+    margin: 10px;
 }
