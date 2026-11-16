@@ -31,3 +31,16 @@ body{
 ul{
     list-style-type: square;
 }
+#parent{
+    width: 400px;
+    border: 2px solid red;
+}
+#child{
+    border: 3px dashed purple;
+    margin: 50px;
+}
+#grandson{
+    margin: 30px;
+    border: 5px double aquamarine;
+    height: 100px;
+}
